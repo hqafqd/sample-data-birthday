@@ -23,6 +23,11 @@ and then check by command
 $ cat ~/.aws/credentials
 ```
 
+### clear S3 bucket
+```
+$ aws s3 rm s3://data-sample-birthday --recursive
+```
+
 ### upload
 ```
 $ aws s3 cp ./data s3://data-sample-birthday/ --recursive
